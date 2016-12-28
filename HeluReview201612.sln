@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26009.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeluReview201612", "HeluReview201612\HeluReview201612.csproj", "{F8334ABF-5BD4-47D7-8496-B5A86C1F699A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CookiesCartCs", "CookiesCartCs\CookiesCartCs.csproj", "{1FCA5F28-F32A-4456-985E-20B807081732}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8334ABF-5BD4-47D7-8496-B5A86C1F699A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8334ABF-5BD4-47D7-8496-B5A86C1F699A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8334ABF-5BD4-47D7-8496-B5A86C1F699A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8334ABF-5BD4-47D7-8496-B5A86C1F699A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FCA5F28-F32A-4456-985E-20B807081732}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FCA5F28-F32A-4456-985E-20B807081732}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FCA5F28-F32A-4456-985E-20B807081732}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FCA5F28-F32A-4456-985E-20B807081732}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

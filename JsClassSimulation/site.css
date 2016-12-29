@@ -1,0 +1,25 @@
+﻿body {
+    font-family: 'Segoe UI', 'Microsoft YaHei UI', 'Microsoft YaHei', sans-serif;
+}
+
+table {
+    width: 90%;
+}
+
+td{
+    padding:8px;
+    border:2px solid lightgray;
+    text-align:center;
+}
+
+thead{
+    background-color:lightgray;
+}
+
+#console{
+    padding:4px;
+    background-color:black;
+    color:whitesmoke;
+    float:right;
+    width:50%;
+}

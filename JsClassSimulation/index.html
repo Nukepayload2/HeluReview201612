@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link href="site.css" rel="stylesheet" />
+    <title>js面向对象</title>
+    <script src="System.js"></script>
+    <script src="System.Threading.Tasks.js"></script>
+    <script src="Simulations.js"></script>
+    <script src="index.html.js"></script>
+</head>
+<body>
+    <div>
+        <h2>js面向对象程序演示 - 模拟对决</h2>
+        <p id="console"></p>
+        <p>输入玩家1姓名</p>
+        <input id="txtP1" type="text" />
+        <p>输入玩家2姓名</p>
+        <input id="txtP2" type="text" /><br /><br />
+        <input id="btnStart" type="button" value="开始模拟" />
+        <h3>说明</h3>
+        <p>这段程序模拟了一次小型的战役。阵营有苏联，日本两个。每个阵营开局只能建造一个工程，可以是战争工厂(重工)，或者是兵营。每个工厂都会随机生产一个作战单位。</p>
+        <p>开局建造兵营的一方侦察到对方开局建造战争工厂则会发动 50% 成功率的突袭。</p>
+        <p>如果没有任何一方突袭，则比较所生产的单位的生命值，生命值高则获胜。</p>
+        <table>
+            <thead>
+                <tr>
+                    <td colspan="4">作战单位生产表</td>
+                </tr>
+                <tr>
+                    <td>阵营</td>
+                    <td>工厂</td>
+                    <td>单位</td>
+                    <td>生命值</td>
+                </tr>
+            </thead>
+            <tr>
+                <td>苏联</td>
+                <td>战争工厂</td>
+                <td>铁锤坦克</td>
+                <td>1000</td>
+            </tr>
+            <tr>
+                <td>苏联</td>
+                <td>兵营</td>
+                <td>动员兵</td>
+                <td>240</td>
+            </tr>
+            <tr>
+                <td>日本</td>
+                <td>战争工厂</td>
+                <td>海啸坦克</td>
+                <td>900</td>
+            </tr>
+            <tr>
+                <td>日本</td>
+                <td>兵营</td>
+                <td>帝国武士</td>
+                <td>300</td>
+            </tr>
+        </table>
+        <p>可以用来决定谁取外卖，谁去交电费，谁扫地 ... ...</p>
+        <p>这个程序所用的js是使用面向对象风格编写的，模拟了 命名空间，私有/公有 类，继承，只读/读写 属性，静态/成员 方法，字段，构造函数，别名导入，委托 等功能。</p>
+        <p>类的结构在 *.ts 文件定义，考试考的是 *.js 里面的写法。</p>
+    </div>
+</body>
+</html>

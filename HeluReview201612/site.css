@@ -16,3 +16,26 @@ tr {
 strong,p{
     padding:2px 8px;
 }
+
+#lnk-view-code {
+    float: right;
+    position: fixed;
+    right: 8px;
+    top: 2px;
+    text-decoration: none;
+    background-color: dodgerblue;
+    color: white;
+    padding: 8px 24px;
+    border: 2px solid dodgerblue;
+    font-weight:bold;
+}
+
+    #lnk-view-code:hover {
+        background-color: #58B1DF;
+        border-color: #1871B4;
+    }
+
+    #lnk-view-code:active {
+        background-color: black;
+        border-color: black;
+    }

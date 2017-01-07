@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26009.0
+VisualStudioVersion = 15.0.26020.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeluReview201612", "HeluReview201612\HeluReview201612.csproj", "{F8334ABF-5BD4-47D7-8496-B5A86C1F699A}"
 EndProject
@@ -9,6 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CookiesCartCs", "CookiesCar
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BF2230B0-CDAC-4AA6-AD7F-8C74B51A632A}"
 	ProjectSection(SolutionItems) = preProject
+		index.html = index.html
 		readme.md = readme.md
 	EndProjectSection
 EndProject

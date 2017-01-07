@@ -19,9 +19,9 @@ strong,p{
 
 #lnk-view-code {
     float: right;
-    position: fixed;
+    position: absolute;
     right: 8px;
-    top: 2px;
+    top: 24px;
     text-decoration: none;
     background-color: dodgerblue;
     color: white;
